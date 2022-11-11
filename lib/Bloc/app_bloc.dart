@@ -25,10 +25,6 @@ class AppBloc extends Bloc<AppEvent, AppState> {
       random().then((value) {
         emit(RandomNumber(number: value));
       });
-
-
-
-
     });
   }
 }
